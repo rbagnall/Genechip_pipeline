@@ -5,6 +5,7 @@
 #Usage: Exome_align.pl -fastq [path/2/user] -cohort [cohort name] -exome [truseq or sureselectv4]
 #save raw reads as [name1].1.fastq.gz, [name1].2.fastq.gz , [name2].1.fastq.gz , [name2].2.fastq.gz, etc...
 #save the raw reads in a directory called Rawdata e.g. /home/shared/NGS/human/[USER]/Rawdata
+# modified version
 
 use strict; use warnings;
 use File::Copy;
